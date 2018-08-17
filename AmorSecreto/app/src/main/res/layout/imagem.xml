@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".view.InserirImagem">
+
+    <Button
+        android:id="@+id/btnEscolherFoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolher Foto"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descrição da imagem"
+        android:id="@+id/edtDescricaoImagem"
+        android:layout_toRightOf="@+id/btnEscolherFoto" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_agenda"
+        android:id="@+id/ivFoto"
+        android:layout_above="@+id/pbProgresso"
+        android:layout_below="@+id/edtDescricaoImagem"/>
+
+    <ProgressBar
+        android:id="@+id/pbProgresso"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnUpload"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+
+        android:id="@+id/btnUpload"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnUpload"
+        android:layout_alignBottom="@id/btnUpload"
+        android:text="Ver fotos"
+        android:gravity="center"
+        android:id="@+id/txtVerFotos"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@id/btnUpload" />
+
+
+
+
+</RelativeLayout>

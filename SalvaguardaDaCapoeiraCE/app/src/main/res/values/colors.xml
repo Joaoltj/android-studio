@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#590108</color>
+    <color name="colorPrimaryDark">#3E0001</color>
+    <color name="colorAccent">#970620</color>
+    <color name="colorTransparentWhite">#CCCCCC</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="preto">#000</color>
+    <color name="startColor">#970620</color>
+    <color name="endColor">#3E0001</color>
+    <color name="centerColor">#590108</color>
+</resources>

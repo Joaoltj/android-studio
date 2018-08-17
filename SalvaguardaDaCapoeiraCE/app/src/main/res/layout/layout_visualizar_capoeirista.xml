@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/sombra2"
+    android:elevation="16dp"
+    android:layout_marginBottom="3dp"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/fotoCapoeiristaLayout"
+        android:src="@drawable/ic_launcher_background"/>
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+
+            android:textSize="15dp"
+            android:textColor="@color/preto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome"
+            android:id="@+id/nomeCapoeiristaLayout"/>
+
+        <TextView
+
+            android:textColor="@color/preto"
+            android:text="Nome"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/apelidoCapoeiristaLayout"/>
+
+        <TextView
+            
+            android:textColor="@color/preto"
+
+            android:textSize="15dp"
+            android:text="Nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/emailCapoeiristaLayout"/>
+
+
+
+
+
+        <TextView
+            android:textSize="15dp"
+            android:text="Nome"
+            android:textColor="@color/preto"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/graduacaoCapoeiristaLayout"/>
+
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
+    </LinearLayout>
+

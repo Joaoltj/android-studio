@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/startColor"
+                android:textSize="15dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/apelido_do_capoeirista"/>
+            <EditText
+                android:id="@+id/edtApelidoCapoeirista"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/startColor"
+                android:textSize="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/whatsapp_do_capoeirista"/>
+            <EditText
+                android:id="@+id/edtWhatsappCapoeirista"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/startColor"
+                android:textSize="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/graduacao_do_capoeirista"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:id="@+id/spnGraduacaoCapoeirista"
+                android:layout_height="40dp"/>
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/startColor"
+                android:textSize="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ano_da_do_capoeirista"/>
+            <Button
+                android:onClick="selecionarData"
+                android:id="@+id/btnAnoGraduacaoCapoeirista"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Selecione" />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/startColor"
+                android:textSize="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/grupo_do_capoeirista"/>
+            <EditText
+                android:id="@+id/edtGrupoCapoeirista"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/startColor"
+                android:textSize="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/estilo_do_capoeirista"/>
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:id="@+id/spnEstiloCapoeirista"
+                android:layout_height="40dp"/>
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/startColor"
+                android:textSize="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nome_do_mestre"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/edtNomeMestre" />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/startColor"
+                android:textSize="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/apelido_do_mestre"/>
+            <EditText
+                android:id="@+id/edtApelidoMestre"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/startColor"
+                android:textSize="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/graduacao_do_mestre"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:id="@+id/spnGraduacaoMestre"
+                android:layout_height="40dp"/>
+            <RelativeLayout
+                android:layout_marginTop="15dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="voltar"
+                    android:text="@string/voltar"/>
+                <Button
+                    android:id="@+id/btnCadastrar"
+                    android:layout_alignParentRight="true"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="cadastrar"
+                    android:text="@string/cadastrar"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "44571028135",
+    "firebase_url": "https://salvaguarda-da-capoeira-ce.firebaseio.com",
+    "project_id": "salvaguarda-da-capoeira-ce",
+    "storage_bucket": "salvaguarda-da-capoeira-ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44571028135:android:96bf1388274a9837",
+        "android_client_info": {
+          "package_name": "com.ltj.joao.salvaguardadacapoeira_ce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "44571028135-evksums6e79uj6f9642mlqa411uq39gg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ltj.joao.salvaguardadacapoeira_ce",
+            "certificate_hash": "dbc7874566a6b6f7f0288127ec9b004d0b56be77"
+          }
+        },
+        {
+          "client_id": "44571028135-us9r5kdol8nqlq1t0djff3fnspa3qbj9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgwrD1dGb3Mu6gc3zZO4oLC1ZjSmv8ulo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "44571028135-us9r5kdol8nqlq1t0djff3fnspa3qbj9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

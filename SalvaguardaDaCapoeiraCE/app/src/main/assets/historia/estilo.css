@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Verdana;
+	}
+
+
+h3{
+	padding-left: 10px;
+	margin-left: 10px; 
+
+}
+
+/*div inicial*/
+.pat{
+	
+	width: 100%;
+    height:auto;
+    color:#590108;
+}
+
+/*div central/textinho*/
+#textinho{
+	padding: 10px;
+    width: 90%;
+    margin-left: 5%;    
+    background-color: #2f0205;
+    color: white;
+    text-align: justify; 
+    font-size: 13px;
+
+   	
+    
+	  
+}
+h3{
+	margin-left:-5px;
+}
+.titulo{
+	text-align: center;
+}
+.texto{
+	text-align:justify;
+}
+/*fundo*/
+.corpo{
+	background-image: url(ver.jpg);
+    height: 50%;
+   width: 100%;
+}
+
+/*rodapé*/
+body{
+
+background-image: url(ver.jpg);
+
+
+	 
+}
+

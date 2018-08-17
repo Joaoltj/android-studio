@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "75199996385",
+    "firebase_url": "https://amor-secreto.firebaseio.com",
+    "project_id": "amor-secreto",
+    "storage_bucket": "amor-secreto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75199996385:android:afbce2af56bce747",
+        "android_client_info": {
+          "package_name": "com.ltj.joao.amorsecreto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75199996385-b76r6h4u3tnefkcig4ctee6l0dc385vi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ltj.joao.amorsecreto",
+            "certificate_hash": "dbc7874566a6b6f7f0288127ec9b004d0b56be77"
+          }
+        },
+        {
+          "client_id": "75199996385-b0fhnptdublalrjijm8uaj4ol4gjm0j4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3zGQRMpa2jQR_AA62gHV-omtUGmwU95Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "75199996385-b0fhnptdublalrjijm8uaj4ol4gjm0j4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Amor Secreto</string>
+    <string name="agenda">Agenda</string>
+    <string name="musicas">Músicas</string>
+    <string name="fotos">Fotos</string>
+    <string name="videos">Vídeos</string>
+    <string name="batepapo">Bate Papo</string>
+    <string name="noticias">Notícias</string>
+    <string name="titulo">Título</string>
+    <string name="local">Local</string>
+    <string name="data">Data</string>
+    <string name="criar_festa">Criar Festa</string>
+    <string name="salvar_festa">Salvar Festa</string>
+    <string name="galeria">Galeria</string>
+</resources>

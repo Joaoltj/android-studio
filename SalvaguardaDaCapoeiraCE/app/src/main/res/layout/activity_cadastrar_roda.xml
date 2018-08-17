@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.CadastrarRoda">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+
+                    android:textColor="@color/startColor"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dia_da_semana_roda"/>
+                <EditText
+                    android:textColor="@color/preto"
+
+                    android:id="@+id/edtDiaSemana"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+
+                <TextView
+
+                    android:textColor="@color/startColor"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/horario_roda"/>
+                <EditText
+
+                    android:textColor="@color/preto"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/edtHorarioRoda" />
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_marginTop="15dp"
+
+                    android:textColor="@color/startColor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nome_do_grupo_organizador_roda"/>
+                <EditText
+
+                    android:textColor="@color/preto"
+                    android:id="@+id/edtGrupoOrganizador"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_marginTop="15dp"
+
+                    android:textColor="@color/startColor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nome_do_responsavel_roda"/>
+                <EditText
+
+                    android:textColor="@color/preto"
+                    android:id="@+id/edtResponsavelRoda"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+
+
+
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/startColor"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/estado_do_roda"/>
+                <EditText
+
+                    android:textColor="@color/preto"
+                    android:id="@+id/edtEstadoRoda"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:textColor="@color/startColor"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cidade_do_roda"/>
+                <EditText
+                    android:textColor="@color/preto"
+
+                    android:id="@+id/edtCidadeRoda"
+                    android:layout_width="match_parent"
+                    android:inputType="textEmailAddress"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:textColor="@color/startColor"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+
+
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bairro_do_roda"/>
+                <EditText
+
+                    android:textColor="@color/preto"
+                    android:id="@+id/edtBairroRoda"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:textColor="@color/startColor"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rua_do_roda"/>
+                <EditText
+
+                    android:textColor="@color/preto"
+                    android:id="@+id/edtRuaRoda"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:textColor="@color/startColor"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+
+
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Complemento_do_roda"/>
+                <EditText
+                    android:textColor="@color/preto"
+
+                    android:inputType="text"
+                    android:id="@+id/edtComplementoRoda"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:onClick="obterLatLong"
+                    android:layout_height="wrap_content"
+                    android:text="Obter latitude e longitude"/>
+
+
+
+                <TextView
+                    android:textColor="@color/startColor"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Latitude*"/>
+                <EditText
+
+                    android:textColor="@color/preto"
+                    android:id="@+id/edtLatitude"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:textColor="@color/startColor"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+
+
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Longitude*"/>
+                <EditText
+                    android:textColor="@color/preto"
+
+                    android:inputType="text"
+                    android:id="@+id/edtLongitude"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+
+
+
+
+
+
+                <FrameLayout
+                    android:id="@+id/contentRoda"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:paddingRight="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/btnCadastrarRoda"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="15dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="cadastrarRoda"
+                    android:text="Salvar"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

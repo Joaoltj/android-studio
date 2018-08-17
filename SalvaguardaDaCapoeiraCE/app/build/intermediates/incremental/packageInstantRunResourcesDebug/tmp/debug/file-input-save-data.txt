@@ -1,0 +1,23 @@
+#Internal package file, do not edit.
+#Tue Aug 07 06:34:52 BRT 2018
+2.base=/home/joao/Documentos/AndroidStudioProjects/SalvaguardaDaCapoeiraCE/app/build/intermediates/assets/debug
+0.path=historia/index2.html
+2.baseType=DIRECTORY
+3.base=/home/joao/Documentos/AndroidStudioProjects/SalvaguardaDaCapoeiraCE/app/build/intermediates/assets/debug
+2.set=ASSET
+1.path=historia/index1.html
+4.base=/home/joao/Documentos/AndroidStudioProjects/SalvaguardaDaCapoeiraCE/app/build/intermediates/assets/debug
+count=5
+2.path=historia/ver.jpg
+4.set=ASSET
+3.path=historia/estilo.css
+3.baseType=DIRECTORY
+1.set=ASSET
+4.path=historia/index3.html
+1.baseType=DIRECTORY
+0.base=/home/joao/Documentos/AndroidStudioProjects/SalvaguardaDaCapoeiraCE/app/build/intermediates/assets/debug
+0.baseType=DIRECTORY
+3.set=ASSET
+1.base=/home/joao/Documentos/AndroidStudioProjects/SalvaguardaDaCapoeiraCE/app/build/intermediates/assets/debug
+4.baseType=DIRECTORY
+0.set=ASSET

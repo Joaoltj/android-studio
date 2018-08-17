@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp"
+    android:elevation="16dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginLeft="8dp"
+    android:background="@drawable/sombra2"
+    android:orientation="vertical">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/fotoGrupoLayout"
+        android:src="@drawable/ic_launcher_background"/>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingLeft="30dp"
+          android:paddingRight="30dp"
+          android:orientation="vertical">
+          <TextView
+              android:layout_marginTop="15dp"
+              android:textColor="@color/startColor"
+              android:textStyle="bold"
+              android:textSize="15dp"
+              android:layout_width="match_parent"
+              android:text="Nome do Grupo"
+              android:layout_height="wrap_content"/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/nomeGrupoLayout"
+              android:text="Nome do Grupo:"/>
+          <TextView
+              android:layout_marginTop="15dp"
+              android:textColor="@color/startColor"
+              android:textStyle="bold"
+              android:textSize="15dp"
+              android:layout_width="match_parent"
+              android:text="Nome do Responsável"
+              android:layout_height="wrap_content"/>
+          <TextView
+              android:id="@+id/nomeResponsavelLayout"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Nome do Responsável:"/>
+          <TextView
+              android:layout_marginTop="15dp"
+              android:textColor="@color/startColor"
+              android:textStyle="bold"
+              android:textSize="15dp"
+              android:layout_width="match_parent"
+              android:text="Mestre do Grupo"
+              android:layout_height="wrap_content"/>
+          <TextView
+              android:id="@+id/mestreGrupoLayout"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Mestre do Grupo:"/>
+          <TextView
+              android:layout_marginTop="15dp"
+              android:textColor="@color/startColor"
+              android:textStyle="bold"
+              android:textSize="15dp"
+              android:layout_width="match_parent"
+              android:text="Estado"
+              android:layout_height="wrap_content"/>
+          <TextView
+              android:id="@+id/estadoGrupoLayout"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Estado:"/>
+          <TextView
+              android:layout_marginTop="15dp"
+              android:textColor="@color/startColor"
+              android:textStyle="bold"
+              android:textSize="15dp"
+              android:layout_width="match_parent"
+              android:text="Cidade"
+              android:layout_height="wrap_content"/>
+          <TextView
+              android:id="@+id/cidadeGrupoLayout"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Cidade:"/>
+          <TextView
+              android:layout_marginTop="15dp"
+              android:textColor="@color/startColor"
+              android:textStyle="bold"
+              android:textSize="15dp"
+              android:layout_width="match_parent"
+              android:text="Bairro"
+              android:layout_height="wrap_content"/>
+          <TextView
+              android:id="@+id/bairroGrupoLayout"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Bairro:"/>
+
+          <TextView
+              android:layout_marginTop="15dp"
+              android:textColor="@color/startColor"
+              android:textStyle="bold"
+              android:textSize="15dp"
+              android:layout_width="match_parent"
+              android:text="Rua"
+              android:layout_height="wrap_content"/>
+          <TextView
+              android:id="@+id/ruaGrupoLayout"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Rua:"/>
+          <TextView
+              android:layout_marginTop="15dp"
+              android:textColor="@color/startColor"
+              android:textStyle="bold"
+              android:textSize="15dp"
+              android:layout_width="match_parent"
+              android:text="Complemento"
+              android:layout_height="wrap_content"/>
+          <TextView
+              android:id="@+id/complementoGrupoLayout"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Complemento:"/>
+
+      </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+

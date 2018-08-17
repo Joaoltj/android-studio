@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.Perfil">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="254dp"
+                android:background="@color/centerColor"
+
+                android:orientation="vertical">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/ivFotoPerfil"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="200dp"
+                    android:src="@drawable/joao"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="#fff"/>
+                <!--ImageView
+                    android:id="@+id/ivFotoPerfil"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/joao" / -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/nomePerfil"
+
+                    android:text="João Santos"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:background="@drawable/sombra2"
+
+                android:paddingTop="20dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingBottom="20dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+
+                    android:textColor="@color/colorAccent"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Whatsapp"/>
+                <TextView
+
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    android:id="@+id/whatsappPerfil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(85)987235842"/>
+                <View
+                    android:layout_marginTop="15dp"
+                    android:background="#767676"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+
+                <TextView
+                    android:textColor="@color/colorAccent"
+
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Telefone"/>
+                <TextView
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    android:id="@+id/telefonePerfil"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(85)987579511"/>
+                <View
+                    android:layout_marginTop="15dp"
+                    android:background="#767676"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+
+
+                <TextView
+
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Data de Nascimento"/>
+                <TextView
+                    android:textSize="15dp"
+                    android:id="@+id/dataNascimentoPerfil"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="16/09/2000"/>
+                <View
+                    android:layout_marginTop="15dp"
+                    android:background="#767676"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+
+
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+
+                    android:textSize="15dp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sexo"/>
+                <TextView
+
+                    android:textSize="15dp"
+                    android:id="@+id/sexoPerfil"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Masculino"/>
+                <View
+                    android:layout_marginTop="15dp"
+                    android:background="#767676"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+
+                    android:textSize="15dp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Endereço"/>
+                <TextView
+
+                    android:textSize="15dp"
+                    android:id="@+id/enderecoPerfil"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rua c, bloco 50 apt 12"/>
+                <View
+                    android:layout_marginTop="15dp"
+                    android:background="#767676"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+
+
+
+
+                <TextView
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Apelido"/>
+                <TextView
+
+                    android:textSize="15dp"
+                    android:id="@+id/apelidoPerfil"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Zeca"/>
+                <View
+                    android:layout_marginTop="15dp"
+                    android:background="#767676"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+
+
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Graduação"/>
+                <TextView
+                    android:id="@+id/graduacaoPerfil"
+
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mestre"/>
+                <View
+                    android:layout_marginTop="15dp"
+                    android:background="#767676"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+
+
+
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorAccent"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ano da Graduação"/>
+                <TextView
+                    android:id="@+id/anoGraduacaoPerfil"
+
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="19/04/2019"/>
+                <View
+                    android:layout_marginTop="15dp"
+                    android:background="#767676"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+
+
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Associação,grupo ou entidade"/>
+                <TextView
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:id="@+id/grupoPerfil"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="INFO"/>
+                <View
+                    android:layout_marginTop="15dp"
+                    android:background="#767676"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+
+
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Estilo"/>
+                <TextView
+                   android:textColor="#000"
+                    android:textSize="15dp"
+                    android:id="@+id/estiloPerfil"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jogador"/>
+                <View
+                    android:layout_marginTop="15dp"
+                    android:background="#767676"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+
+
+
+
+
+                <TextView
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nome do Mestre"/>
+                <TextView
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:id="@+id/nomeMestrePerfil"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jogador"/>
+                <View
+                    android:layout_marginTop="15dp"
+                    android:background="#767676"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+
+
+
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Apelido do Mestre"/>
+                <TextView
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:id="@+id/apelidoMestrePerfil"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jogador"/>
+                <View
+                    android:layout_marginTop="15dp"
+                    android:background="#767676"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+
+
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Graduação do Mestre"/>
+                <TextView
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:id="@+id/graduacaoMestrePerfil"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jogador"/>
+                <View
+                    android:layout_marginTop="15dp"
+                    android:background="#767676"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

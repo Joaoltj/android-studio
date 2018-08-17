@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ltj.joao.salvaguardadacapoeira_ce.view.CadastrarCapoeirista">
+    <item
+        android:id="@+id/itemRemoverFoto"
+        android:orderInCategory="100"
+        android:title="@string/remover_foto"
+        app:showAsAction="never" />
+</menu>

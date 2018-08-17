@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:background="@color/centerColor"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:orientation="vertical">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="200dp"
+                    android:src="@drawable/ic_inserir_foto"
+                    android:onClick="selecionarFoto"
+                    android:id="@+id/ivFotoCapoeirista"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_gravity="center_horizontal">
+                </de.hdodenhof.circleimageview.CircleImageView>
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="30dp"
+                android:paddingTop="20dp"
+                android:paddingRight="30dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/startColor"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nome_do_capoeirista"/>
+                <EditText
+                    android:textColor="@color/preto"
+                    android:id="@+id/edtNomeCapoeirista"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+
+
+
+                        <TextView
+                            android:textColor="@color/startColor"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="15dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/cpf_do_capoeirista"/>
+                        <EditText
+                            android:textColor="@color/preto"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:id="@+id/edtCpfCapoeirista" />
+                        <TextView
+                            android:layout_marginTop="15dp"
+                            android:textColor="@color/startColor"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/rg_do_capoeirista"/>
+                        <EditText
+                            android:textColor="@color/preto"
+                            android:id="@+id/edtRgCapoeirista"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp" />
+
+                <TextView
+
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+
+                    android:textColor="@color/startColor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dataNascimento_do_capoeirista"/>
+                <Button
+                    android:focusable="true"
+                    android:onClick="selecionarData"
+                    android:id="@+id/btnDataNascimentoCapoeirista"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Selecione" />
+                <TextView
+                    android:textColor="@color/startColor"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sexo_do_capoeirista"/>
+                <Spinner
+
+                    android:layout_width="match_parent"
+                    android:id="@+id/spnSexoCapoeirista"
+                    android:layout_height="40dp">
+                </Spinner>
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/startColor"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/telefone_do_capoeirista"/>
+                <EditText
+                    android:id="@+id/edtTelefoneCapoeirista"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/startColor"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/endereco_capoeirista"/>
+                <EditText
+                    android:inputType="text"
+                    android:id="@+id/edtEnderecoCapoeirista"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/startColor"
+                    android:textSize="15dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/apelido_do_capoeirista"/>
+                <EditText
+                    android:id="@+id/edtApelidoCapoeirista"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/startColor"
+                    android:textSize="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/whatsapp_do_capoeirista"/>
+                <EditText
+                    android:id="@+id/edtWhatsappCapoeirista"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/startColor"
+                    android:textSize="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/graduacao_do_capoeirista"/>
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:id="@+id/spnGraduacaoCapoeirista"
+                    android:layout_height="40dp"/>
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/startColor"
+                    android:textSize="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ano_da_do_capoeirista"/>
+                <Button
+                    android:onClick="selecionarData"
+                    android:id="@+id/btnAnoGraduacaoCapoeirista"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Selecione" />
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/startColor"
+                    android:textSize="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/grupo_do_capoeirista"/>
+                <EditText
+                    android:id="@+id/edtGrupoCapoeirista"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/startColor"
+                    android:textSize="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/estilo_do_capoeirista"/>
+                <Spinner
+
+                    android:layout_width="match_parent"
+                    android:id="@+id/spnEstiloCapoeirista"
+                    android:layout_height="40dp"/>
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/startColor"
+                    android:textSize="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nome_do_mestre"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/edtNomeMestre" />
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/startColor"
+                    android:textSize="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/apelido_do_mestre"/>
+                <EditText
+                    android:id="@+id/edtApelidoMestre"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/startColor"
+                    android:textSize="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/graduacao_do_mestre"/>
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:id="@+id/spnGraduacaoMestre"
+                    android:layout_height="40dp"/>
+            </LinearLayout>
+                <RelativeLayout
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/btnCadastrar"
+                        android:layout_alignParentRight="true"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="cadastrar"
+                        android:text="Salvar "/>
+                </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

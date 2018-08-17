@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".view.TEste">
+
+    <SeekBar
+        android:id="@+id/seek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+<TextView
+    android:layout_gravity="center"
+    android:id="@+id/txtTime"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="00:00"/>
+<LinearLayout
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageButton
+        android:background="@color/redCenter"
+        android:id="@+id/btnPlay"
+        android:onClick="playMusic"
+        android:src="@drawable/ic_play"
+        android:layout_marginRight="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageButton
+        android:layout_marginRight="12dp"
+        android:background="@color/redCenter"
+        android:onClick="pauseMusic"
+        android:id="@+id/btnPause"
+        android:src="@drawable/ic_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageButton
+        android:background="@color/redCenter"
+        android:onClick="stopMusic"
+        android:id="@+id/btnStop"
+        android:src="@drawable/ic_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

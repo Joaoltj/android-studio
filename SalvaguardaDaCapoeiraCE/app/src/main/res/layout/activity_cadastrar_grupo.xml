@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:background="@color/centerColor"
+                android:orientation="vertical">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="200dp"
+                    android:src="@drawable/ic_inserir_foto_grupo"
+                    android:onClick="selecionarFotoGrupo"
+                    android:id="@+id/ivFotoGrupo"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+
+                    android:textColor="@color/startColor"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nome_do_grupo"/>
+                <EditText
+                    android:textColor="@color/preto"
+
+                    android:id="@+id/edtNomeGrupo"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+
+                <TextView
+
+                    android:textColor="@color/startColor"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nome_do_responsavel"/>
+                <EditText
+
+                    android:textColor="@color/preto"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/edtNomeResponsavel" />
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_marginTop="15dp"
+
+                    android:textColor="@color/startColor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mestre_do_grupo"/>
+                <EditText
+
+                    android:textColor="@color/preto"
+                    android:id="@+id/edtMestreGrupo"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+
+
+
+
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/startColor"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/estado_do_grupo"/>
+                <EditText
+
+                    android:textColor="@color/preto"
+                    android:id="@+id/edtEstadoGrupo"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:textColor="@color/startColor"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cidade_do_grupo"/>
+                <EditText
+                    android:textColor="@color/preto"
+
+                    android:id="@+id/edtCidadeGrupo"
+                    android:layout_width="match_parent"
+                    android:inputType="textEmailAddress"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:textColor="@color/startColor"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+
+
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bairro_do_grupo"/>
+                <EditText
+
+                    android:textColor="@color/preto"
+                    android:id="@+id/edtBairroGrupo"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:textColor="@color/startColor"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rua_do_grupo"/>
+                <EditText
+
+                    android:textColor="@color/preto"
+                    android:id="@+id/edtRuaGrupo"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:textColor="@color/startColor"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+
+
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Complemento_do_grupo"/>
+                <EditText
+                    android:textColor="@color/preto"
+
+                    android:inputType="text"
+                    android:id="@+id/edtComplementoGrupo"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+
+            </LinearLayout>
+            <RelativeLayout
+                android:paddingRight="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/btnCadastrarGrupo"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="15dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="cadastrarGrupo"
+                    android:text="Salvar"/>
+            </RelativeLayout>
+        </LinearLayout>
+</ScrollView>
+</RelativeLayout>

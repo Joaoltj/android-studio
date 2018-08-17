@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/cadastrarCapoeirista"
+            android:icon="@drawable/icon_capoeirista"
+            android:title="Cadastrar/Alterar Capoeirista" />
+        <item
+            android:id="@+id/cadastrarGrupo"
+            android:icon="@drawable/icon_grupo"
+            android:title="Cadastrar/Alterar Grupo" />
+        <item
+            android:id="@+id/cadastrarRodas"
+            android:icon="@drawable/icon_roda"
+            android:title="Cadastrar/Alterar Roda" />
+        <item
+            android:id="@+id/visualizarCapoeirista"
+            android:icon="@drawable/icon_visualizar"
+            android:title="Capoeiristas" />
+        <item
+            android:id="@+id/visualizarGrupos"
+            android:icon="@drawable/icon_visualizar"
+            android:title="Grupos" />
+        <item
+            android:id="@+id/login"
+            android:icon="@drawable/ic_pin_code"
+            android:title="Login" />
+
+        <item
+            android:id="@+id/visualizarHistoria"
+            android:icon="@drawable/icon_historia"
+            android:title="História da Capoeira" />
+        <item
+            android:id="@+id/desenvolvedores"
+            android:icon="@drawable/icon_desenvolvedores"
+            android:title="Desenvolvimento" />
+    </group>
+
+
+
+</menu>
